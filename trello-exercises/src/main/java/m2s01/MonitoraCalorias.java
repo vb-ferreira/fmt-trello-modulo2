@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * [M2S01] Ex. 04 - Monitoramento de Calorias
  *
- * @see <a href="https://trello.com/c/9kMSEV4y">Requirements</a>
+ * @see <a href="https://trello.com/c/daS6hDbi">Requirements</a>
  * @author Vinícius Ferreira
  */
 public class MonitoraCalorias {
