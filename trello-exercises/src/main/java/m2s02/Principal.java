@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Principal {
 
     // Variáveis globais
-    Scanner sc = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in).useDelimiter(";|\\R");
     List<String> itens = List.of("Cadastrar novo paciente", "Listar pacientes", "Alterar informações do paciente",
             "Mostrar informações do paciente", "Registrar atividade física", "Remover paciente",
             "Sair");
