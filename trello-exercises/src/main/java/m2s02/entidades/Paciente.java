@@ -22,6 +22,42 @@ public class Paciente {
         atividadesFisicas = new ArrayList<>();
     }
 
+    // Métodos de instância de Paciente
+
+    /**
+     * Ex3: Criar método para calcular o IMC do paciente
+     * @return IMC arredondado para duas casas decimais
+     */
+    public double calcularIMC() {
+        double pacientePeso = getPeso();
+        double pacienteAltura = getAltura();
+        double imc = pacientePeso / (pacienteAltura * pacienteAltura);
+        return Math.round(imc * 100.0) / 100.0;
+    }
+
+    /**
+     * Ex3: Criar método para exibir informações do paciente
+     */
+    public void monitorarPaciente() {
+        System.out.println("Paciente: " + getNome());
+        System.out.println("Idade: " + getIdade());
+        System.out.println("Peso (kg): " + getPeso());
+        System.out.println("Altura (m): " + getAltura());
+        System.out.println("Pressão Arterial: " + getPressaoArterial());
+        System.out.println("Frequência Cardíaca: " + getFrequenciaCardiaca());
+        System.out.println("Dieta Alimentar: " + getDietaAlimentar());
+        System.out.println("IMC: " + calcularIMC());
+        System.out.println("Atividades Físicas: " + atividadesFisicas.toString());
+    }
+
+    /**
+     * Ex3: Criar método para registrar nova atividade
+     * @param atividade atividade a ser adicionada à lista de strings
+     */
+    public void registrarAtividade(String atividade) {
+        atividadesFisicas.add(atividade);
+    }
+
     // Getters e Setters
     public String getNome() {
         return nome;
