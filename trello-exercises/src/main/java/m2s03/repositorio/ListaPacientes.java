@@ -6,9 +6,6 @@ import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Scanner;
 
-/**
- * Ex2: criar lista para receber pacientes
- */
 public class ListaPacientes {
 
     private static ArrayList<Paciente> pacientes;

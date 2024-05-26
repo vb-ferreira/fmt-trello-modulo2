@@ -42,8 +42,8 @@ public class Consulta {
         return dataHora;
     }
 
-    public void setDataHora(LocalDateTime dataHora) {
-        this.dataHora = dataHora;
+    public void setDataHora(String dataHora) {
+        this.dataHora = LocalDateTime.parse(dataHora);
     }
 
     public boolean isConsultaRealizada() {
