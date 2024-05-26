@@ -72,4 +72,8 @@ public class ListaNutricionistas {
         System.out.print("Novo número de consultas: ");
         nutricionista.setNumeroConsultas(sc.nextInt());
     }
+
+    public static ArrayList<Nutricionista> getNutricionistas() {
+        return nutricionistas;
+    }
 }

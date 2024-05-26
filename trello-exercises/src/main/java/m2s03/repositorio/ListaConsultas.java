@@ -1,8 +1,11 @@
 package m2s03.repositorio;
 
 import m2s03.entidades.Consulta;
+import m2s03.entidades.Nutricionista;
+import m2s03.entidades.Paciente;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -19,10 +22,11 @@ public class ListaConsultas {
     public static void listarConsultas() {
         System.out.println("\nConsultas cadastradas");
         System.out.println("-----------------------");
-        System.out.println("Data-Hora  -  Nutricionista  -  Paciente");
+        System.out.println("Data-Hora  -  Nutricionista  -  Paciente  -  Consulta Realizada");
 
         for (Consulta c : consultas) {
-            System.out.println(c.getDataHora() + "  -  " + c.getNomeNutricionista() + "  -  " + c.getNomePaciente());
+            System.out.println(c.getDataHora() + "  -  " + c.getNomeNutricionista() + "  -  " + c.getNomePaciente() +
+                               "  -  " + (c.isConsultaRealizada() ? "SIM" : "NÃO"));
         }
     }
 
@@ -32,15 +36,36 @@ public class ListaConsultas {
 
     public static void adicionarConsulta(Scanner sc) {
         Consulta consulta = new Consulta();
+        List<Paciente> pacientesCadastrados = ListaPacientes.getPacientes();
+        List<Nutricionista> nutricionistasCadastrados = ListaNutricionistas.getNutricionistas();
+        boolean existePaciente = false;
+        boolean existeNutricionista = false;
 
         System.out.print("Data e hora (AAAA-MM-DDTHH:MM:SS): ");
         consulta.setDataHora(sc.next());
         System.out.print("Nome do nutricionista: ");
         consulta.setNomeNutricionista(sc.next());
-        System.out.print("Nome do paciente (kg): ");
+        System.out.print("Nome do paciente: ");
         consulta.setNomePaciente(sc.next());
 
-        consultas.add(consulta);
+        for (Paciente p : pacientesCadastrados) {
+            if(p.getNome().equalsIgnoreCase(consulta.getNomePaciente())) {
+                existePaciente = true;
+            }
+        }
+
+        for (Nutricionista n : nutricionistasCadastrados) {
+            if(n.getNome().equalsIgnoreCase(consulta.getNomeNutricionista())) {
+                existeNutricionista = true;
+            }
+        }
+
+        if (existePaciente && existeNutricionista) {
+            consultas.add(consulta);
+        } else {
+            System.out.println("Paciente ou nutricionista não cadastrado. Tente novamente.");
+        }
+
     }
 
     public static void removerConsulta(int id) {
@@ -68,5 +93,12 @@ public class ListaConsultas {
         System.out.print("Consulta realizada: ");
         consulta.setConsultaRealizada(sc.nextBoolean());
     };
+
+    public static void realizarConsulta(Scanner sc) {
+        System.out.print("Informe a ID da consulta: ");
+        int idConsulta = sc.nextInt();
+        Consulta consultaSelecionada = ListaConsultas.buscarConsulta(idConsulta);
+        consultaSelecionada.setConsultaRealizada(true);
+    }
 
 }

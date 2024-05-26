@@ -14,17 +14,23 @@ public class Paciente {
     private String dietaAlimentar;
     private List<String> atividadesFisicas;
 
-    // Construtor
+    // Construtores
     public Paciente() {
         atividadesFisicas = new ArrayList<>();
     }
 
-    // Métodos de instância de Paciente
+    public Paciente(String nome, int idade, double peso, double altura, double pressaoArterial, double frequenciaCardiaca, String dietaAlimentar, List<String> atividadesFisicas) {
+        this.nome = nome;
+        this.idade = idade;
+        this.peso = peso;
+        this.altura = altura;
+        this.pressaoArterial = pressaoArterial;
+        this.frequenciaCardiaca = frequenciaCardiaca;
+        this.dietaAlimentar = dietaAlimentar;
+        this.atividadesFisicas = atividadesFisicas;
+    }
 
-    /**
-     * Ex3: Criar método para calcular o IMC do paciente
-     * @return IMC arredondado para duas casas decimais
-     */
+    // Métodos
     public double calcularIMC() {
         double pacientePeso = getPeso();
         double pacienteAltura = getAltura();

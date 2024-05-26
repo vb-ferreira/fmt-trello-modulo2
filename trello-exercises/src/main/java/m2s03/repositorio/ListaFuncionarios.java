@@ -42,14 +42,15 @@ public class ListaFuncionarios {
         System.out.print("Salário: ");
         funcionario.setSalario(sc.nextDouble());
 
-        System.out.println("Rua: ");
+        System.out.print("Rua: ");
         endereco.setLogradouro(sc.next());
-        System.out.println("Estado: ");
+        System.out.print("Estado: ");
         endereco.setEstado(sc.next());
-        System.out.println("Cidade: ");
-        System.out.println("Número: ");
+        System.out.print("Cidade: ");
+        endereco.setCidade(sc.next());
+        System.out.print("Número: ");
         endereco.setNumero(sc.nextInt());
-        System.out.println("CEP: ");
+        System.out.print("CEP: ");
         endereco.setCep(sc.next());
 
         funcionario.setEndereco(endereco);

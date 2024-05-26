@@ -97,4 +97,7 @@ public class ListaPacientes {
         pacientes.remove(id);
     }
 
+    public static ArrayList<Paciente> getPacientes() {
+        return pacientes;
+    }
 }
