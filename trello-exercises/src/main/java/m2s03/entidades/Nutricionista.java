@@ -21,6 +21,21 @@ public class Nutricionista extends Funcionario {
         this.experiencia = experiencia;
     }
 
+    /**
+     * Ex. 05 - adiciona 1 ano ao tempo de experiência.
+     */
+    public void adicionarExperiencia() {
+        experiencia++;
+    }
+
+    /**
+     * Ex. 05 - adiciona certificação à lista de certificações.
+     * @param certificacao string com certificação.
+     */
+    public void adicionarCertificacao(String certificacao) {
+        certificacoes.add(certificacao);
+    }
+
     // Getters e Setters
     public List<String> getCertificacoes() {
         return certificacoes;
