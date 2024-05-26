@@ -13,7 +13,7 @@
 - [04: Monitoramento de Calorias](https://trello.com/c/daS6hDbi)
 - [05: Conversor de Unidades](https://trello.com/c/yS7us9PS)
 
-# [M2S02]
+# [[M2S02](https://github.com/vb-ferreira/fmt-trello-modulo2/tree/main/trello-exercises/src/main/java/m2s02)]
 
 ## 📌 Exercícios
 
@@ -29,6 +29,18 @@
 - [10: Criar método de remoção](https://trello.com/c/GunKY5ov)
 - [11: Organizar aplicação em pacotes](https://trello.com/c/rvxbfyrv)
 
-# [M2S03]
+# [[M2S03](https://github.com/vb-ferreira/fmt-trello-modulo2/tree/main/trello-exercises/src/main/java/m2s03)]
 
 ## 📌 Exercícios
+
+- [01: Criar construtores, getters e setters](https://trello.com/c/DFYG5RXf)
+- [02: Criar classe Endereço](https://trello.com/c/9s9jsr8g)
+- [03: Criar classe Funcionário](https://trello.com/c/8sGm66pI)
+- [04: Criar classe Nutricionista](https://trello.com/c/8pqwb6pq)
+- [05: Adicionar métodos à Nutricionista](https://trello.com/c/6vDp8Cll)
+- [06: Criar classe Consulta](https://trello.com/c/1CHmpxok)
+- [07: Criar classe ListaConsulta](https://trello.com/c/cHa1eY04)
+- [08: Criar classe ListaFuncionário e ListaNutricionista](https://trello.com/c/PZ8GsHag)
+- [09: Criar novas telas/opções](https://trello.com/c/nd6I7sSf)
+
+# [M2S04]
