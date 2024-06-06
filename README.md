@@ -43,4 +43,18 @@
 - [08: Criar classe ListaFuncionário e ListaNutricionista](https://trello.com/c/PZ8GsHag)
 - [09: Criar novas telas/opções](https://trello.com/c/nd6I7sSf)
 
-# [M2S04]
+# [M2S04](https://github.com/FullStack-Health/projeto-cadastro-de-medicos-mini-projeto/tree/main)
+
+## 📌 Mini-projeto
+
+- [Cadastro de Médicos](https://github.com/FullStack-Health/projeto-cadastro-de-medicos-mini-projeto/tree/main)
+
+# [M2S05]()
+
+- [01: Modelagem de Dados](https://trello.com/c/Wbj7emVB)
+- [02: DDL das Tabelas](https://trello.com/c/OOzQkuT9)
+- [03: DML Insert das Tabelas](https://trello.com/c/8Sqnm2Yt)
+- [04: DDL (relacionamento)](https://trello.com/c/4ruvMNWX)
+- [05: Diagrama de Modelagem](https://trello.com/c/BNkZth6J)
+- [06: DML update de relacionamentos](https://trello.com/c/i1muZF58)
+- [07: DML Update e Delete](https://trello.com/c/gLEOf0NL)

@@ -10,7 +10,8 @@ import java.util.Scanner;
 
 public class MenuPrincipal {
 
-    Scanner sc = new Scanner(System.in).useDelimiter(";|\\R");
+//    Scanner sc = new Scanner(System.in).useDelimiter(";|\\R");
+    Scanner sc = new Scanner(System.in).useDelimiter("\\R");
     // Opções do menu principal
     List<String> itens = List.of("Cadastrar paciente", "Listar pacientes", "Editar paciente",
             "Detalhar paciente", "Registrar atividade física", "Remover paciente", "Cadastrar funcionário",
