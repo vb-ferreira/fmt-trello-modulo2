@@ -3,7 +3,7 @@
 </div>
 <hr>
 
-# [[M2S01](https://github.com/vb-ferreira/fmt-trello-modulo2/tree/main/trello-exercises/src/main/java/m2s01)]
+# [M2S01](https://github.com/vb-ferreira/fmt-trello-modulo2/tree/main/trello-exercises/src/main/java/m2s01)
 
 ## 📌 Exercícios
 
@@ -13,7 +13,7 @@
 - [04: Monitoramento de Calorias](https://trello.com/c/daS6hDbi)
 - [05: Conversor de Unidades](https://trello.com/c/yS7us9PS)
 
-# [[M2S02](https://github.com/vb-ferreira/fmt-trello-modulo2/tree/main/trello-exercises/src/main/java/m2s02)]
+# [M2S02](https://github.com/vb-ferreira/fmt-trello-modulo2/tree/main/trello-exercises/src/main/java/m2s02)
 
 ## 📌 Exercícios
 
@@ -29,7 +29,7 @@
 - [10: Criar método de remoção](https://trello.com/c/GunKY5ov)
 - [11: Organizar aplicação em pacotes](https://trello.com/c/rvxbfyrv)
 
-# [[M2S03](https://github.com/vb-ferreira/fmt-trello-modulo2/tree/main/trello-exercises/src/main/java/m2s03)]
+# [M2S03](https://github.com/vb-ferreira/fmt-trello-modulo2/tree/main/trello-exercises/src/main/java/m2s03)
 
 ## 📌 Exercícios
 
@@ -49,7 +49,9 @@
 
 - [Cadastro de Médicos](https://github.com/FullStack-Health/projeto-cadastro-de-medicos-mini-projeto/tree/main)
 
-# [M2S05]()
+# [M2S05](https://github.com/vb-ferreira/fmt-trello-modulo2/tree/main/trello-exercises/src/main/java/m2s05)
+
+## 📌 Exercícios
 
 - [01: Modelagem de Dados](https://trello.com/c/Wbj7emVB)
 - [02: DDL das Tabelas](https://trello.com/c/OOzQkuT9)
