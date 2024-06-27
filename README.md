@@ -60,3 +60,15 @@
 - [05: Diagrama de Modelagem](https://trello.com/c/BNkZth6J)
 - [06: DML update de relacionamentos](https://trello.com/c/i1muZF58)
 - [07: DML Update e Delete](https://trello.com/c/gLEOf0NL)
+
+# [M2S06](https://github.com/vb-ferreira/fmt-trello-modulo2/tree/main/trello-exercises/src/main/java/m2s06)
+
+## 📌 Exercícios
+
+- [01: Servlet - Criar uma aplicação simples](https://trello.com/c/oHoZorUL)
+- [02: Servlet - Desenvolver lógica CRUD](https://trello.com/c/G90s29dQ)
+- [03: Novo Projeto Maven](https://trello.com/c/XWMiRecr)
+- [04: Spring - Petshop](https://trello.com/c/W2iK3wRp)
+- [05: Spring - Petshop - Implementar CRUD](https://trello.com/c/Kn1AMPf3)
+- [06: Spring - Petshop - Injeção de Dependências](https://trello.com/c/KnlawNfq)
+- [07: Spring - Petshop - Relacionamento Pet-Tutor](https://trello.com/c/9W97rmIW)
