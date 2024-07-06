@@ -72,3 +72,17 @@
 - [05: Spring - Petshop - Implementar CRUD](https://trello.com/c/Kn1AMPf3)
 - [06: Spring - Petshop - Injeção de Dependências](https://trello.com/c/KnlawNfq)
 - [07: Spring - Petshop - Relacionamento Pet-Tutor](https://trello.com/c/9W97rmIW)
+
+# [M2S08](https://github.com/vb-ferreira/m2s08)
+
+## 📌 Exercícios
+
+- [01: Iniciando o projeto de Pokédex](https://trello.com/c/FxCC44JN)
+- [02: Configurando a conexão com banco de dados](https://trello.com/c/mklJZIs8)
+- [03: Criar funcionalidade de cadastro de pokémon](https://trello.com/c/ByOPqLnz)
+- [04: Criar funcionalidade de atualização de pokémon](https://trello.com/c/wLzDpKTa)
+- [05: Criar funcionalidade de exclusão de pokémon](https://trello.com/c/emegP8B0)
+- [06: Criar funcionalidade de retornar um pokémon](https://trello.com/c/sNSFYce9)
+- [07: Criar funcionalidade de retornar uma lista de pokémon](https://trello.com/c/cmuW4qGH)
+- [08: Mudar o atributo tipo para um Enum](https://trello.com/c/x8LDC2FR)
+- [09: Tratar retornos de erro da API](https://trello.com/c/SDUuPOUK)
