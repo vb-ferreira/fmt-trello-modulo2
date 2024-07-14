@@ -73,6 +73,17 @@
 - [06: Spring - Petshop - Injeção de Dependências](https://trello.com/c/KnlawNfq)
 - [07: Spring - Petshop - Relacionamento Pet-Tutor](https://trello.com/c/9W97rmIW)
 
+# [M2S07](https://github.com/vb-ferreira/m2s07)
+
+## 📌 Exercícios
+
+- [01: SQL](https://trello.com/c/mVXF1176)
+- [02: Entidades e Repository](https://trello.com/c/WrSa2NM1)
+- [03: DTOs](https://trello.com/c/sBmyanCS)
+- [04: Classes Service](https://trello.com/c/yqxlb7En)
+- [05: Validações e Funções](https://trello.com/c/RXsbpwtt)
+- [06: Controllers](https://trello.com/c/ES63bpZC)
+
 # [M2S08](https://github.com/vb-ferreira/m2s08)
 
 ## 📌 Exercícios
